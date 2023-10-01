@@ -1,0 +1,74 @@
+.card {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 30px;
+  width: 600px;
+  padding: 20px;
+  background: #ffffff;
+}
+
+.card h1 {
+  font-size: 20px;
+  font-size: larger;
+  font-family: "Sofia";
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.card span {
+  font-weight: 700;
+}
+
+.card .card-button {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+}
+.card .card-button a{
+    color: rgb(0, 84, 251) !important;
+}
+.card .card-button a:last-child{
+    color: red !important ;
+}
+
+/* loading css */
+.loading{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 30px;
+    width: 600px;
+    padding: 20px;
+    background: #ffffff;
+    font-size: 20px;
+    font-size: larger;
+    font-family: "Sofia";
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 51%;
+    
+  }
+
+  .card {
+    /* min-height: 35rem; */
+    padding: 2rem;
+  }
+  .card .card-button {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: flex-start !important;
+
+}
+}
+
+

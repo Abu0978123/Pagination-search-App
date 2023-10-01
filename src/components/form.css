@@ -1,0 +1,22 @@
+.search {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    width: 400px;
+}
+
+.search h1{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    
+}
+
+.form-input{
+    width: 350px;
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+}
+
